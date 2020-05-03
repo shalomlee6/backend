@@ -1,0 +1,38 @@
+{
+  "name": "nodejs-backend-template",
+  "version": "1.0.0",
+  "description": "A backend template for projects ",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "author": "Shalom Pinchas",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "@types/body-parser": "^1.17.1",
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.2",
+    "@types/express-session": "^1.17.0",
+    "@types/mongoose": "^5.5.34",
+    "@types/node": "^12.12.21",
+    "@types/passport": "^1.0.3",
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.5.4",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "@types/passport-local": "^1.0.33",
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "connect-mongo": "^3.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "mongoose": "^5.8.2",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  }
+}
